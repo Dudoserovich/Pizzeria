@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/MyPrograms/pizzeria/main.cpp
+iostream
+-
+pizza.h
+/cygdrive/c/MyPrograms/pizzeria/pizza.h
+
+/cygdrive/c/MyPrograms/pizzeria/pizza.h
+iostream
+-
+vector
+-
+
